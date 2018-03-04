@@ -1,0 +1,156 @@
+ body {
+	margin:0;
+    padding:0;
+    background-color:#dcdcdc;
+}
+ol li{
+list-style: none;
+}
+ul li{
+list-style: none;
+}
+#tytul {
+margin-left: 30px;
+}
+.naglowek{
+	padding-top: 10px;
+	text-align: center;
+	text-transform:uppercase;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #DADADA;
+}
+.kolumna{
+	float: left;
+}
+#kolumna5 {   
+	width: 18%;
+	margin-right: 20px;
+	background-color:#f9f9f9; 
+	border:1px solid #ccc;
+	border-radius: 5px;
+	min-height: 300px; 
+}
+#kolumna4 {   
+	width: 23%;
+	margin-right: 20px;
+	background-color:#f9f9f9; 
+	border:1px solid #ccc;
+	border-radius: 5px;
+	min-height: 300px; 
+}
+#kolumna3 {   
+	width: 30%;
+	margin-right: 30px;
+	background-color:#f9f9f9; 
+	border:1px solid #ccc;
+	border-radius: 5px;
+	min-height: 300px; 
+}
+#kolumna2 {   
+	width: 46%;
+	margin-right: 30px;
+	background-color:#f9f9f9; 
+	border:1px solid #ccc;
+	border-radius: 5px;
+	min-height: 300px; 
+}
+#kolumna1 {   
+	width: 46%;
+	margin-right: 10px;
+	background-color:#f9f9f9; 
+	border:1px solid #ccc;
+	border-radius: 5px;
+	min-height: 300px; 
+}
+.poziomli2 {
+    background-color:#f9f9f9;
+    border:1px solid #ccc;
+	border-radius: 5px;
+	margin-bottom: 8px;
+	width: 99%;  
+	min-height: 69px;
+	padding-top:5px;
+	padding-left: 5px;
+	cursor:move;
+}	
+.poziom2 {
+padding: 5px;
+}
+.poziom3 {
+padding-left: 15px;
+padding-bottom: 5px;
+}
+.poziom2 li.ui-state-highlight {
+    padding:24px;
+    background-color:#DADADA;
+    border:1px solid #ccc;
+	border-radius: 5px;
+    margin-top:12px;
+	width: 95%;
+}
+.poziomli3 {
+width:98%;
+margin: 0 0 4px;
+border-bottom: 1px solid #E0E0E0;
+min-height: 20px;
+}
+.deletet {
+float: right;
+margin-right: 3px;
+}
+.deletep{
+float: right;
+}
+.deletepod{
+float:right;
+margin: 0px 1px 0px;
+}
+.toggle_punkt{
+width: 90px;
+float: left;
+margin-top: 5px;
+}
+.formpunkt {
+border: 1px solid #ccc;
+border-radius:5px;
+margin:  3px 3px 3px;
+height: 44px;
+}
+.form_punkt{
+margin-top: 5px;
+float: right;
+margin-right: 5px;
+display: none;
+height: 22px;
+}
+.zapisz_p{
+float: right;
+}
+#form_punkt{
+width: 70%;
+}
+#form_punkt5{
+width: 60%;
+}
+.punkt {
+height: 22px;
+width: 80%;
+line-height: 22px;
+transition: width 0.25s;
+resize:none;
+overflow:hidden;
+}
+.podpunkt{
+    height:21px;
+    line-height:20px;
+    min-width: 80%;
+    max-width: 300px;
+    transition: width 0.25s;
+    resize:none;
+    overflow:hidden;
+	font-size: 13px;
+}
+.zapisz_pod{
+margin-bottom: 10px;
+}
